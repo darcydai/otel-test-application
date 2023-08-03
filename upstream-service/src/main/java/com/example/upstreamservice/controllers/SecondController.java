@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class SecondController {
     @GetMapping("/second")
     public String second() throws InterruptedException {
-        TimeUnit.SECONDS.sleep(20);
+        TimeUnit.SECONDS.sleep(10);
         return "test";
 
     }
